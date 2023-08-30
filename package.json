@@ -1,5 +1,6 @@
 {
   "name": "qrcodereader",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-hid": "^2.1.2"
+    "jsqr": "^1.4.0",
+    "node-hid": "^2.1.2",
+    "qrcode-reader": "^1.0.4",
+    "qrcode-terminal": "^0.12.0",
+    "readline": "^1.3.0",
+    "serialport": "^11.0.1"
   }
 }
