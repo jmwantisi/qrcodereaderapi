@@ -12,7 +12,7 @@ async function detectMunbynScanners() {
 
       const UsbDevices = devices.filter((device) => device.manufacturer);
 
-      //UsbDevices.map((device, index) => console.log(`All USB Devices detected number ${index} :`, device))
+      UsbDevices.map((device, index) => console.log(`All USB Devices detected number ${index} :`, device))
 
       const PRODUCTS = ['USBKey Module', 'HIDKeyBoard']
 
